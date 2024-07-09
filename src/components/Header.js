@@ -25,9 +25,9 @@ const Header = () => {
         <header>
             <nav>
                 <div className='nav-container'>
-                    <div className='logo'>
+                    <Link className='logo' to='/'>
                         <img className='logo-img' alt='Logo' src={HealthXcale} />
-                    </div>
+                    </Link>
                     <div className='tag-line'>
                         <p>Nigeria's No.1 Pharmaceutical e-commerce platform</p>
                     </div>

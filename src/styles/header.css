@@ -1,0 +1,187 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+p{
+    font-size: 2.5vh;
+}
+.nav-container{
+    background-color: rgb(52,98,150);
+}
+.logo-img{
+    width: 20vh;
+}
+.nav-container, .search-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 20px;
+  
+}
+.logo{
+    padding-top: 10px;
+}
+.xcale{
+    color: rgb(198, 231, 201);
+}
+.tag-line{
+    color: white;
+}
+.icon-circle, .user-icon{
+    position: relative;
+    width: 5vh;
+    height: 5vh;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shopping-cart,.person-icon{
+    color: black ;
+    font-size: 3vh;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+.checkmark{
+    color: rgb(255, 255, 255);
+    font-size: 5px;
+    position: absolute;
+    top:45%;
+    left:60%;
+    transform:translate(-90%, -70%);
+}
+.notification-circle{
+    position: absolute;
+    top: -1vh;
+    right: 0vh;
+    width: 2vh;
+    height: 2vh;
+    background-color: rgb(167, 212, 239);
+    color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    font-weight: bold;
+}
+.cart-shopmeds{
+    display: flex;
+    align-items: center;
+    gap: 2vh;
+    
+}
+.shopmeds-button{
+    background-color: rgb(94,186,36);
+    color: white;
+    width: 18vh;
+    height: 5vh;
+    border: none;
+    font-size: 2.5vh;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.hamburger{
+    display: none;
+}
+.shop-by-category{
+    font-size: 2.5vh;
+    font-weight: 600;
+    
+}
+.search-input{
+    width: 55vh;
+    height: 5vh;
+    color: #ccc;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+.search-icon{
+    position: relative;
+    left: 5vh;
+    font-size: 2.5vh;
+    color: #ccc;
+}
+.search-container{
+    box-shadow: 3px 10px 5px rgb(219, 219, 219);
+}
+.call-container{
+    display: flex;
+}
+.phone-icon{
+    position: relative;
+    right: 1vh;
+    top: 2vh;
+    font-size: 2vh;
+}
+.tag-line2{
+    display: none;
+}
+  
+.dropdown-toggle {
+    position: absolute;
+    top: 16%;
+    left: 21%;
+}
+  
+.dropdown-menu {
+    display: block;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    margin-top: 8px;
+    list-style: none;
+    padding: 0;
+}
+  
+  .dropdown-menu li {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+  
+  .dropdown-menu li:hover {
+    background-color: #f1f1f1;
+}
+
+@media (max-width:725px) {
+    .nav-container{
+        padding: 10px 20px;
+        justify-content: space-between;
+    
+    }
+    .tag-line, .user-icon, .shopmeds-container{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+        font-size: 3vh;
+        color: white;
+    }
+    .search-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .shop-by{
+        display: none;
+    }
+    .tag-line2{
+        display:block;
+        font-size: 2.5vh;
+        font-weight: bold;
+        text-align: center;
+    }
+    .call-container{
+        display: none;
+    }
+    .search-icon{ 
+        top: 4vh;
+        left: 4vh;
+    }
+}

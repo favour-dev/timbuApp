@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.hero-container{
+    display: flex;
+    gap: 15px;
+    /* align-items: center; */
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+}
+/* .hero-img{
+    max-width: 200px;
+    min-width: 100px;
+} */
+.pharmacist-img{
+    /* width: 100%; */
+    height: auto;
+    border-radius: 12px;
+}
+
+.mobile-img{
+    display: none;
+}
+.shop-prescription, .satisfied-customer{
+    /* font-size: 2vw; */
+    font-weight: 600;
+}
+.start-shopping{
+    background-color: rgb(94,186,36);
+    color: white;
+    width: 30vh;
+    height: 6vh;
+    border: none;
+    font-size: 2.5vh;
+    font-weight: bold;
+    border-radius: 5px;
+    
+}
+.circle-image{
+    width: 100%;
+    height: 100%;
+    /* width: 20vh; */
+}
+.circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.small-circles{
+    display: flex;
+}
+.good-price-container{
+    background-color: rgb(167,212,239);
+    
+}
+.good-price{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo-line{
+    padding-top: 5px;
+}
+/* h2{
+    font-size: 2vw;
+}
+h1{
+    font-size: 2.5vw;
+} */
+
+@media (max-width:725px)  {
+
+    .hero-container{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+      
+    }
+    .small-circles{
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* .pharmacist-img{
+        width: 50vh;
+        height: auto;
+        border-radius: 12px;
+    } */
+     h2{
+        font-size: 3vw;
+    }
+    
+    h1{
+        font-size: 6vw;
+    }
+    .logo-line{
+        display: none;
+    }
+    .mobile-img{
+        display: block;
+        margin-bottom: 10px;
+    }
+    .desktop-img{
+        display: none;
+    }
+    .hero-img{
+        max-width: 400px;
+        min-width: 200px;
+    }
+    .pharmacist-img{
+        width: 100%;
+        height: auto;
+        border-radius: 12px;
+    }
+    
+}

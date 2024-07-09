@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/github.io/static/css/main.9c7ba971.css",
+    "main.js": "/github.io/static/js/main.ef7445d5.js",
+    "static/js/453.d4ffc71e.chunk.js": "/github.io/static/js/453.d4ffc71e.chunk.js",
+    "static/media/pexels-pixabay-39866.jpg": "/github.io/static/media/pexels-pixabay-39866.1053088b4dc89926e2de.jpg",
+    "static/media/pexels-hasibullah-zhowandai-248954-819530.jpg": "/github.io/static/media/pexels-hasibullah-zhowandai-248954-819530.8e59babd761a6c561f51.jpg",
+    "static/media/pexels-pixabay-354951.jpg": "/github.io/static/media/pexels-pixabay-354951.58f4d6de6f4e8fd22540.jpg",
+    "static/media/pexels-olly-762080.jpg": "/github.io/static/media/pexels-olly-762080.b7e8f54fb8684204275a.jpg",
+    "static/media/Frame 32.png": "/github.io/static/media/Frame 32.abf75fb21c171c03609e.png",
+    "static/media/Frame 21 (1).png": "/github.io/static/media/Frame 21 (1).46b400b355e2b3c40bdd.png",
+    "static/media/image 7.png": "/github.io/static/media/image 7.cf0c6c2cf12a0395227b.png",
+    "static/media/image 23.png": "/github.io/static/media/image 23.eeb46f4c1a22997eabe6.png",
+    "static/media/image 24.png": "/github.io/static/media/image 24.04a4082730017876e497.png",
+    "static/media/Frame 27.png": "/github.io/static/media/Frame 27.ada1cacf3e1096322635.png",
+    "static/media/image 14 (1).png": "/github.io/static/media/image 14 (1).7b575fcb459b9fbeb906.png",
+    "static/media/image 5.png": "/github.io/static/media/image 5.7396230fa858db5d906a.png",
+    "static/media/image 12.png": "/github.io/static/media/image 12.d66c8e3bbaffeb58d018.png",
+    "static/media/image 15.png": "/github.io/static/media/image 15.2b69346f932938ca109b.png",
+    "static/media/image 6 (1).png": "/github.io/static/media/image 6 (1).67bd272aa8a3bdf19ae3.png",
+    "static/media/image 17.png": "/github.io/static/media/image 17.8c4106d9aa00cd62ab77.png",
+    "static/media/image 11.png": "/github.io/static/media/image 11.902beb173dcee9e0b622.png",
+    "static/media/image 25.png": "/github.io/static/media/image 25.5598af1c62f8edd81eaa.png",
+    "static/media/image 16.png": "/github.io/static/media/image 16.4804331b0211e20e63fd.png",
+    "static/media/image 13.png": "/github.io/static/media/image 13.d76741fbee9dfd2c2c1a.png",
+    "static/media/Pharmacist.webp": "/github.io/static/media/Pharmacist.6faae44a217dbb678806.webp",
+    "index.html": "/github.io/index.html",
+    "main.9c7ba971.css.map": "/github.io/static/css/main.9c7ba971.css.map",
+    "main.ef7445d5.js.map": "/github.io/static/js/main.ef7445d5.js.map",
+    "453.d4ffc71e.chunk.js.map": "/github.io/static/js/453.d4ffc71e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9c7ba971.css",
+    "static/js/main.ef7445d5.js"
+  ]
+}
